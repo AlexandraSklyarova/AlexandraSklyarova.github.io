@@ -15,8 +15,8 @@
   </script>
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 </head>
-<body>
 
+<body>
 <header class="topbar">
   <nav class="nav">
     <div class="brand">
@@ -27,7 +27,7 @@
       <a class="active" href="index.html">Home</a>
       <a href="papers.html">Papers</a>
       <a href="projects.html">Projects</a>
-      <a href="mailto:YOUR_EMAIL_HERE">Contact</a>
+      <a href="mailto:alexandra.sklyarova09@gmail.com">Contact</a>
     </div>
   </nav>
 </header>
@@ -49,21 +49,26 @@
     </div>
   </section>
 
+  <!-- GRID START -->
   <section class="grid">
+
+    <!-- LEFT CARD -->
     <div class="card">
       <h2>Research Interests</h2>
       <p>
         A core aspect of my approach is data-driven mathematical analysis: I use large-scale computational experiments (Sage, Python) to identify patterns in algebraic objects, fit models to observed behavior, and formulate conjectures that can later be justified theoretically. This workflow mirrors many problems in the real world, where structure must be inferred from data before being formalized.
       </p>
+
       <hr class="sep" />
+
       <div class="item">
         <div class="title">
           <h3>Current focus</h3>
-          <div class="meta">Cyclotomic subfields & Gaussian periods</div>
+          <div class="meta">Cyclotomic subfields &amp; Gaussian periods</div>
         </div>
         <p class="small">
           I am working on producing explicit generators for intermediate fields of
-        $\mathbb{Q}(\zeta_n)$ and understanding coefficient patterns in period polynomials.
+          $\mathbb{Q}(\zeta_n)$ and understanding coefficient patterns in period polynomials.
         </p>
         <div class="pills">
           <span class="pill">computational experiments</span>
@@ -71,6 +76,8 @@
           <span class="pill">conjecture evidence</span>
         </div>
       </div>
+
+      <hr class="sep" />
 
       <div class="item">
         <div class="title">
@@ -87,32 +94,43 @@
           <li><strong>Deployment</strong>: GitHub Pages, Streamlit Community Cloud</li>
         </ul>
       </div>
+    </div>
+    <!-- END LEFT CARD -->
 
-
+    <!-- RIGHT CARD / ASIDE -->
     <aside class="card">
       <h2>Quick links</h2>
       <div class="kv">
-        
         <strong>GitHub</strong>
-        <div><a href="https://github.com/AlexandraSklyarova" target="_blank" rel="noopener">github.com/AlexandraSklyarova</a></div>
+        <div>
+          <a href="https://github.com/AlexandraSklyarova" target="_blank" rel="noopener">
+            github.com/AlexandraSklyarova
+          </a>
+        </div>
 
         <strong>LinkedIn</strong>
-        <div><a href="https://www.linkedin.com/in/alexandra-sklyarova-986542281/" target="_blank" rel="noopener">linkedin.com/in/alexandra-sklyarova</a></div>
+        <div>
+          <a href="https://www.linkedin.com/in/alexandra-sklyarova-986542281/" target="_blank" rel="noopener">
+            linkedin.com/in/alexandra-sklyarova
+          </a>
+        </div>
 
         <strong>Email</strong>
-        <div><a href="mailto:alexandra.sklyarova09@gmail.com">alexandra.sklyarova09@gmail.com</a></div>
+        <div>
+          <a href="mailto:alexandra.sklyarova09@gmail.com">alexandra.sklyarova09@gmail.com</a>
+        </div>
       </div>
 
       <hr class="sep" />
 
-      <h2>Favorite Texts & Influences</h2>
+      <h2>Favorite Texts &amp; Influences</h2>
       <p class="small">
         My mathematical interests have been shaped by a mix of classical texts and research-oriented
         exposition that emphasize explicit structure, concrete examples, and conceptual clarity.
         I am particularly drawn to works that bridge abstract theory with computable objects and
         applications.
       </p>
-      
+
       <ul class="list">
         <li>
           J.-P. Serre, <em>A Course in Arithmetic</em> — for its elegant and concise treatment of
@@ -128,7 +146,11 @@
           algebraic number theory, with an emphasis on explicit calculations and concrete intuition.
         </li>
       </ul>
+    </aside>
+    <!-- END RIGHT CARD -->
 
+  </section>
+  <!-- GRID END -->
 
   <div class="footer">
     © <span id="year"></span> Alexandra Sklyarova • Built with GitHub Pages
@@ -138,7 +160,5 @@
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
 </script>
-
 </body>
 </html>
-
