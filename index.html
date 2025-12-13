@@ -1,1 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alexandra Sklyarova — Math Research</title>
+  <link rel="stylesheet" href="assets/style.css" />
+
+  <!-- MathJax (LaTeX on webpages) -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <nav class="nav">
+    <div class="brand">
+      <div class="name">Alexandra Sklyarova</div>
+      <div class="tag">Math research • computational number theory</div>
+    </div>
+    <div class="links">
+      <a class="active" href="index.html">Home</a>
+      <a href="papers.html">Papers</a>
+      <a href="projects.html">Projects</a>
+      <a href="mailto:YOUR_EMAIL_HERE">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Research portfolio</h1>
+    <p>
+      I work on cyclotomic fields, Gaussian periods, and computational experiments
+      around period polynomials. This site is a home for my papers, code, and writeups.
+    </p>
+    <div class="badges">
+      <span class="badge">Number theory</span>
+      <span class="badge">Galois theory</span>
+      <span class="badge">SageMath / Python</span>
+      <span class="badge">Data viz for conjecture discovery</span>
+    </div>
+    <div class="btnrow">
+      <a class="btn" href="papers.html">Browse papers →</a>
+      <a class="btn" href="projects.html">Browse projects →</a>
+      <a class="btn" href="papers/thesis.pdf" target="_blank" rel="noopener">Download thesis PDF</a>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>What I’m working on</h2>
+      <p>
+        A recurring theme is producing explicit generators for intermediate fields of
+        $\mathbb{Q}(\zeta_n)$ and understanding coefficient patterns in period polynomials.
+        I like turning “weird patterns” into statements that can be tested and refined.
+      </p>
+      <hr class="sep" />
+      <div class="item">
+        <div class="title">
+          <h3>Current focus</h3>
+          <div class="meta">Cyclotomic subfields & Gaussian periods</div>
+        </div>
+        <p class="small">
+          Example: for primes $p \\equiv 1 \\pmod d$, study period polynomials
+          $P_{p,d}(x)$ and coefficient families $a_i(p)$ to detect structure.
+        </p>
+        <div class="pills">
+          <span class="pill">computational experiments</span>
+          <span class="pill">lattice diagrams</span>
+          <span class="pill">conjecture evidence</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="title">
+          <h3>Tools</h3>
+          <div class="meta">Sage + Python</div>
+        </div>
+        <p class="small">
+          Sage for algebraic number theory computations; Python for data pipelines and plots.
+        </p>
+      </div>
+    </div>
+
+    <aside class="card">
+      <h2>Quick links</h2>
+      <div class="kv">
+        <strong>CV</strong>
+        <div><a href="papers/cv.pdf" target="_blank" rel="noopener">cv.pdf</a> (optional)</div>
+
+        <strong>GitHub</strong>
+        <div><a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener">github.com/YOUR_GITHUB</a></div>
+
+        <strong>LinkedIn</strong>
+        <div><a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener">linkedin.com/in/YOUR_LINKEDIN</a></div>
+
+        <strong>Email</strong>
+        <div><a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a></div>
+      </div>
+
+      <hr class="sep" />
+
+      <h2>How to cite</h2>
+      <p class="small">
+        If you reference something from this site, cite the PDF version and include the date accessed.
+      </p>
+    </aside>
+  </section>
+
+  <div class="footer">
+    © <span id="year"></span> Alexandra Sklyarova • Built with GitHub Pages
+  </div>
+</main>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
 
